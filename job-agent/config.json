@@ -1,0 +1,41 @@
+{
+  "search": {
+    "keywords": [
+      "software engineer",
+      "frontend developer",
+      "full stack developer",
+      "react developer",
+      "web developer"
+    ],
+    "locations": [
+      "India",
+      "Remote",
+      "Bangalore"
+    ],
+    "max_age_hours": 24,
+    "experience_level": "mid",
+    "job_type": "full-time"
+  },
+  "apis": {
+    "serpapi_key": "",
+    "rapidapi_key": "",
+    "openai_api_key": ""
+  },
+  "notifications": {
+    "email": {
+      "enabled": false,
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "sender_email": "",
+      "sender_password": "",
+      "recipient_email": ""
+    },
+    "console": {
+      "enabled": true
+    }
+  },
+  "storage": {
+    "jobs_file": "data/tracked_jobs.json",
+    "applications_file": "data/applications.json"
+  }
+}
