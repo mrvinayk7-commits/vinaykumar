@@ -1,0 +1,20 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files (contain personal info)
+data/tracked_jobs.json
+data/applications.json
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
