@@ -8,6 +8,9 @@ __pycache__/
 data/tracked_jobs.json
 data/applications.json
 
+# Generated reports
+reports/
+
 # Virtual environment
 venv/
 .venv/

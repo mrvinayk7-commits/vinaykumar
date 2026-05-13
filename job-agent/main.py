@@ -23,6 +23,7 @@ from agent.job_filter import JobFilter
 from agent.resume_matcher import ResumeMatcher
 from agent.job_tracker import JobTracker
 from agent.notifier import Notifier
+from agent.report_generator import ReportGenerator
 
 logging.basicConfig(
     level=logging.INFO,
@@ -101,6 +102,12 @@ def run_search(config: dict, profile: dict, auto_apply: bool = False, min_score:
     notifier = Notifier(config)
     stats = tracker.get_stats()
     notifier.notify(ranked_jobs, stats)
+
+    # 7. Generate HTML report with clickable "Apply Now" links
+    report = ReportGenerator()
+    report_path = report.generate_and_open(ranked_jobs, stats)
+    print(f"\n  HTML Report saved: {report_path}")
+    print(f"  Open 'reports/latest_report.html' in your browser to see all jobs with Apply links!\n")
 
     logger.info("Search complete. Found %d new jobs.", len(new_jobs))
 
