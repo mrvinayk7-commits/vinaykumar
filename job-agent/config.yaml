@@ -1,0 +1,71 @@
+# Job Search Agent Configuration
+# ================================
+
+# Search settings
+search:
+  # Keywords to search for (job titles, skills, etc.)
+  keywords:
+    - "software engineer"
+    - "frontend developer"
+    - "full stack developer"
+    - "react developer"
+    - "web developer"
+
+  # Location preferences
+  locations:
+    - "India"
+    - "Remote"
+    - "Bangalore"
+    - "Hyderabad"
+
+  # Only show jobs posted in the last N hours
+  max_age_hours: 24
+
+  # Experience level filter: entry, mid, senior, any
+  experience_level: "mid"
+
+  # Job type: full-time, part-time, contract, internship, any
+  job_type: "full-time"
+
+# Job board API keys (set via environment variables or here)
+# Prefer using .env file for secrets
+apis:
+  # SerpAPI for Google Jobs search (get key at https://serpapi.com)
+  serpapi_key: ""
+
+  # RapidAPI key for LinkedIn/Indeed job APIs (get at https://rapidapi.com)
+  rapidapi_key: ""
+
+  # OpenAI API key for AI-powered matching (get at https://platform.openai.com)
+  openai_api_key: ""
+
+# Notification settings
+notifications:
+  # Enable email notifications
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    sender_email: ""
+    sender_password: ""  # Use app password, not actual password
+    recipient_email: ""
+
+  # Enable console notifications (always recommended)
+  console:
+    enabled: true
+
+# Scheduler settings
+scheduler:
+  # Run every N hours
+  interval_hours: 24
+
+  # Time to run daily (24h format, e.g., "09:00")
+  run_at: "09:00"
+
+# Storage
+storage:
+  # Where to store tracked jobs
+  jobs_file: "data/tracked_jobs.json"
+
+  # Where to store application history
+  applications_file: "data/applications.json"

@@ -1,0 +1,80 @@
+# Your Profile - Used for job matching and auto-fill
+# ===================================================
+# Fill this out with your details
+
+personal:
+  name: "Vinay Kumar"
+  email: "your-email@example.com"
+  phone: "+91-XXXXXXXXXX"
+  location: "India"
+  linkedin: "https://linkedin.com/in/your-profile"
+  github: "https://github.com/mrvinayk7"
+  portfolio: "https://mrvinayportfolio.github.io"
+
+summary: |
+  Passionate software developer with experience in building
+  modern web applications using React, TypeScript, and Node.js.
+  Strong problem-solving skills and a keen eye for UI/UX design.
+
+skills:
+  languages:
+    - JavaScript
+    - TypeScript
+    - Python
+    - HTML
+    - CSS
+  frameworks:
+    - React
+    - Next.js
+    - Node.js
+    - Express
+    - Tailwind CSS
+    - Vite
+  tools:
+    - Git
+    - Docker
+    - VS Code
+    - Figma
+    - Supabase
+  databases:
+    - PostgreSQL
+    - MongoDB
+    - Firebase
+
+experience:
+  - title: "Software Developer"
+    company: "Your Company"
+    location: "India"
+    start_date: "2023-01"
+    end_date: "present"
+    description: |
+      - Built responsive web applications using React and TypeScript
+      - Implemented RESTful APIs with Node.js and Express
+      - Collaborated with cross-functional teams
+
+education:
+  - degree: "Bachelor of Technology"
+    institution: "Your University"
+    graduation_year: "2023"
+    field: "Computer Science"
+
+preferences:
+  # Minimum salary expectation (annual, INR)
+  min_salary: 500000
+
+  # Preferred company sizes: startup, mid, large, any
+  company_size: "any"
+
+  # Willing to relocate
+  willing_to_relocate: true
+
+  # Remote preference: remote, hybrid, onsite, any
+  work_mode: "any"
+
+  # Keywords to AVOID in job postings
+  blacklist_keywords:
+    - "unpaid"
+    - "commission only"
+
+  # Companies to skip
+  blacklist_companies: []

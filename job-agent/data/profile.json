@@ -1,0 +1,44 @@
+{
+  "personal": {
+    "name": "Vinay Kumar",
+    "email": "your-email@example.com",
+    "phone": "+91-XXXXXXXXXX",
+    "location": "India",
+    "linkedin": "https://linkedin.com/in/your-profile",
+    "github": "https://github.com/mrvinayk7",
+    "portfolio": "https://mrvinayportfolio.github.io"
+  },
+  "summary": "Passionate software developer with experience in building modern web applications using React, TypeScript, and Node.js. Strong problem-solving skills and a keen eye for UI/UX design.",
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python", "HTML", "CSS"],
+    "frameworks": ["React", "Next.js", "Node.js", "Express", "Tailwind CSS", "Vite"],
+    "tools": ["Git", "Docker", "VS Code", "Figma", "Supabase"],
+    "databases": ["PostgreSQL", "MongoDB", "Firebase"]
+  },
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "Your Company",
+      "location": "India",
+      "start_date": "2023-01",
+      "end_date": "present",
+      "description": "Built responsive web applications using React and TypeScript. Implemented RESTful APIs with Node.js and Express."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "institution": "Your University",
+      "graduation_year": "2023",
+      "field": "Computer Science"
+    }
+  ],
+  "preferences": {
+    "min_salary": 500000,
+    "company_size": "any",
+    "willing_to_relocate": true,
+    "work_mode": "any",
+    "blacklist_keywords": ["unpaid", "commission only"],
+    "blacklist_companies": []
+  }
+}
